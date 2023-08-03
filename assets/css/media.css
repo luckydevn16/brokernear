@@ -1,0 +1,935 @@
+@media (max-width: 1700px) {
+    .container {
+        max-width: 1200px;
+    }
+    .container-narrow {
+        max-width: 836px;
+    }
+    .header-logo,
+    .footer-logo {
+        max-width: 9.8rem;
+        margin-right: 2rem;
+    }
+    .header-panel-upper {
+        padding: 0.5rem 0 0.5rem 2rem;
+    }
+    .nav-list-item {
+        margin: 0 0 0 1.8rem;
+        font-size: 0.8rem;
+    }
+    .header-auth-link {
+        font-size: 0.8rem;
+    }
+    .hero-section {
+        padding: 5rem 0;
+    }
+    .main-heading {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .regular-text {
+        font-size: 0.9rem;
+    }
+    .section-heading {
+        font-size: 1.9rem;
+    }
+    .review-time {
+        font-size: 11px;
+    }
+    .subscribe-heading {
+        font-size: 1.8rem;
+    }
+    .footer-links-group ul li a {
+        font-size: 12px;
+    }
+    .table-wrapper {
+        overflow-x: scroll;
+    }
+    .table-wrapper::-webkit-scrollbar {
+        /* display: none; */
+    }
+
+    /* ABOUT */
+    .about .intro-content-part .section-heading {
+        font-size: 3rem;
+    }
+
+    /* BROKER */
+    .broker-introduction-text-part {
+        max-width: 710px;
+    }
+    .broker-logo-large {
+        width: 120px;
+        height: 120px;
+        min-width: 120px;
+    }
+    .pros-item, .cons-item {
+        padding: 1.5rem 0.5rem 1.5rem 2.6rem;
+    }
+    .best-brockers-holder {
+        padding-left: 3rem;
+        margin-left: 3rem;
+        border-left: 1px solid #DCDCDC;
+    }
+    .review-action-panel .checkbox-wrapper {
+        max-width: 710px;
+    }
+    .broker-link {
+        padding: 1rem 1.2rem;
+    }
+    .circle-number {
+        margin-right: 1rem;
+    }
+    .card-list-item .broker-logo {
+        width: 42px;
+        height: 42px;
+        min-width: 42px;
+    }
+    .card-list-item .broker-name {
+        font-size: 1.05rem;
+        margin-left: 1rem;
+    }
+
+    /* BROKERS */
+    .table-item-action .flex.center {
+        flex-direction: column;
+        gap: 6px;
+    }
+    .table-item-action .green-btn {
+        margin-left: 0;
+    }
+    .card-rating-table td {
+        padding: 18px 0.5rem;
+    }
+    .broker-review-section ul.section-list li, 
+    .broker-review-section ol.section-list li,
+    .about-reviews ul.section-list li,
+    .about-reviews ol.section-list li {
+        font-size: 0.9rem;
+    }
+
+    /* EDUCATIION */
+    .article-column {
+        max-width: 853px;
+    }
+    .sidebar-column {
+        width: 34%;
+    }
+
+    /*==== COOKIES NOTICE ===========================*/
+    .cookies-notice.active {
+        left: 2rem;
+        bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main {
+        padding-bottom: 10.8rem;
+    }
+    .nav-list-item {
+        margin: 0 0 0 1.1rem;
+        font-size: 0.78rem;
+    }
+    .best-brockers-holder {
+        padding-left: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    .best-brockers-holder .best-broker-card {
+        min-width: unset;
+    }
+    .reviews-section .container {
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 998px) {
+    .main {
+        padding-bottom: 11.5rem;
+    }
+    .header {
+        padding: 0.5rem 0;
+    }
+    .header .container {
+        justify-content: space-between;
+    }
+    .header-menu-btn-wrapper {
+        display: block;
+        cursor: pointer;
+    }
+    .header-panel {
+        display: none;
+    }
+    .header-logo,
+    .footer-logo {
+        max-width: 8.3rem;
+    }
+    .cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-broker-card,
+    .best-broker-card {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .intro-content-part {
+        max-width: 488px;
+    }
+    .stats-section .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .stats-section {
+        padding: 3.6rem 0 1.6rem 0;
+    }
+    .stats-card {
+        width: 48%;
+        max-width: 300px;
+        border-right: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .news-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-news-card, .news-categories-card {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .newsline-card {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .people-say-cards-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .people-say-card {
+        width: 48%;
+    }
+    .subscribe-section .container {
+        flex-direction: column;
+    }
+    .subscribe-heading {
+        margin-bottom: 1rem;
+    }
+    .footer-links-group {
+        margin-left: 2rem;
+    }
+    .footer-links-group h4 {
+        font-size: 0.85rem;
+        margin-bottom: 0.85rem;
+    }
+    .footer-links-group ul li a {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+    /* ABOUT */
+    .about .intro-content-part {
+        max-width: 510px;
+    }
+    /* BROKER */
+    .broker-logo-large {
+        width: 98px;
+        height: 98px;
+        min-width: 98px;
+    }
+    .broker-introduction-content {
+        align-items: flex-start;
+    }
+    .broker-introduction-text-part {
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .broker-introduction-section .container {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .broker-introduction-action {
+        justify-content: end;
+    }
+    .pros-and-cons-section .container {
+        flex-direction: column;
+    }
+    .pros-card,
+    .cons-card {
+        width: 49%;
+    }
+    .best-brockers-holder {
+        padding-left: 0;
+        margin-left: 0;
+        border-left: 0;
+        margin-top: 2rem;
+    }
+    .best-brockers-holder .best-broker-card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pros-item, .cons-item {
+        padding: 1.1rem 0.5rem 1.1rem 2.5rem;
+    }
+
+    /* BROKERS */
+    .table-headers {
+        display: none;
+    }
+    .table-item-row {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+    .table-item-number {
+        display: none;
+    }
+    .table-item-row td {
+        padding: 0 0;
+    }
+    .table th, .table td {
+        border: 0;
+    }
+    .table-item-row {
+        border: 1px solid #D3D3D3;
+    }
+    .table-item-rating {
+        display: flex;
+        align-items: center;
+    }
+    .table-item-row td {
+        padding: 1.5rem 0;
+        border-bottom: 1px solid #ECECEC;
+    }
+    .table-item-action .flex.center {
+        flex-direction: row;
+    }
+    .bonus-chip {
+        padding: 6px 9px;
+        font-size: 12px;
+    }
+    .reviews-section .container {
+        overflow-x: unset;
+    }
+
+    /* NEWS */
+    .news-page .sidebar-column {
+        display: block;
+        width: 100%;
+    }
+
+    /* EDUCATION */
+    .sidebar-column {
+        display: none;
+    }
+    .article-column {
+        max-width: unset;
+        margin-right: 0;
+        width: 100%;
+    }
+    .education-card {
+        width: 48%;
+    }
+
+    /* MEMBER */
+    .member-profile .team-member-card {
+        width: 34%;
+    }
+    .member-profile-info {
+        margin-left: 2rem;
+    }
+    .aslo-like-news-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .aslo-like-news-list-item {
+        width: 32%;
+        max-width: 223px;
+    }
+
+    /* TEAM */
+    .team-members-grid {
+        gap: 10px;
+    }
+    .team-member-card {
+        width: 22%;
+    }
+
+    /* VACANCY */
+    .sidebar-column.vacancy {
+        display: block;
+        width: 50%;
+        margin-bottom: 2.5rem;
+    }
+    .vacancy-post-section .container {
+        flex-direction: column;
+    }
+    .vacancy-post-section .article-column {
+        padding-bottom: 0;
+    }
+
+    /* MOBILE MENU */
+    .mobile-menu {
+        display: flex;
+        position: fixed;
+        z-index: 77;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        background-color: #2C2C2C;
+        color: #ffffff;
+        transition: all ease 0.3s;
+    }
+    .mobile-menu.active {
+        position: fixed;
+        z-index: 77;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        background-color: #2C2C2C;
+        color: #ffffff;
+        transition: all ease 0.3s;
+    }
+    .mobile-menu-main {
+        flex: 1 1 auto;
+        padding: 2.5rem 0;
+        text-align: center;
+    }
+    .mobile-menu-footer {
+        padding: 2rem 1.5rem;
+        border-top: 1px solid #494949;
+        gap: 20px;
+    }
+    .mobile-menu-footer .btn {
+        text-align: center;
+    }
+    .mobile-menu .header-search-bar {
+        margin-bottom: 3rem;
+    }
+    .mobile-menu .header-search-input {
+        min-height: 40px;
+        padding: 12px 16px;
+        font-weight: 400;
+        font-size: 12px;
+        border: 1px solid #343434;
+        max-width: 327px;
+        width: 100%;
+        background-color: #414141 !important;
+        background-image: url(../img/svg/white-search.svg);
+        background-repeat: no-repeat;
+        background-size: 16px;
+        background-position: 98% 50%;
+        color: #fff;
+    }
+    .mobile-menu .header-search-input::-webkit-input-placeholder {
+        color: #A9A9A9;
+    }
+    .mobile-menu .header-search-input::-moz-placeholder {
+        color: #A9A9A9;
+    }
+    .mobile-menu .header-search-input:-ms-input-placeholder {
+        color: #A9A9A9;
+    }
+    .mobile-menu .header-search-input::-ms-input-placeholder {
+        color: #A9A9A9;
+    }
+    .mobile-menu .header-search-input::placeholder {
+        color: #A9A9A9;
+    }
+    .mobile-menu .nav-list-item {
+        font-weight: 800;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .btn-green-outline {
+        border: 1px solid #66B872;
+        color: #66B872;
+    }
+    .nav-list-item.mob.dropdown::after {
+        content: "";
+        display: inline-block;
+        width: 17px;
+        height: 10px;
+        background: url('../img/svg/white-arrow-down.svg') no-repeat center / contain;
+        margin-left: 1rem;
+        transition: all ease 0.2s;
+    } 
+    .nav-list-item.mob.dropdown.active::after {
+        transform: rotateZ(180deg);
+    }
+    .mob-dropdown-menu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    .mob-dropdown-menu-item {
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+    .mob-dropdown-menu-item:last-child {
+        margin-bottom: 2rem;
+    }
+
+    /*==== COOKIES NOTICE ===========================*/
+    .cookies-notice.active {
+        left: 1.5rem;
+        bottom: 2rem;
+        right: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding-bottom: 19.8rem;
+    }
+    .hero-section {
+        background: #FDFDFD url(../img/hero-bg.png) no-repeat 60% 0 / cover;
+    }
+    .hero-content {
+        max-width: 488px;
+    }
+    .mobile-menu .nav-list-item {
+        font-size: 17px;
+        margin-bottom: 16px;
+    }
+
+    /* TEAM */
+    .team-member-card {
+        width: 32%;
+    }
+    /* FOOTER */
+    .footer .container {
+        flex-direction: column;
+    }
+    .footer .logo-part {
+        margin-bottom: 3rem;
+    }
+    .footer-logo {
+        max-width: 11rem;
+    }
+    .footer-links-part {
+        flex-direction: column;
+    }
+    .footer-links-group {
+        margin-left: 0;
+        margin-bottom: 1.5rem;
+    }
+    .footer-links-group h4 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .footer-links-group h4::after {
+        content: "";
+        display: inline-block;
+        width: 17px;
+        height: 10px;
+        background: url('../img/svg/white-arrow-down.svg') no-repeat center / contain;
+        margin-left: 1rem;
+        transition: all ease 0.2s;
+    }
+    .footer-links-group h4.active::after {
+        transform: rotateZ(180deg);
+    }
+    .footer-links-group ul li a {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .footer-links-group ul {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+}
+
+@media (max-width: 576px) {
+    .main {
+        padding-bottom: 18.5rem;
+    }
+    .header-logo {
+        max-width: 6.8rem;
+    }
+    .mobile-menu .nav-list-item {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .footer-logo {
+        max-width: 8.6rem;
+    }
+    .hero-section {
+        padding: 3.5rem 0;
+        background: #FDFDFD url(../img/hero-bg.png) no-repeat 30% 0 / cover;
+    }
+    .hero-content .section-text {
+        line-height: 1.75;
+    }
+    .hero-action-panel {
+        flex-direction: column;
+    }
+    .custom-select {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .hero-action-panel .action-btn {
+        width: 100%;
+    }
+    .card-link-light {
+        margin-left: 0.5rem;
+    }
+    .card-content .action-panel {
+        justify-content: space-between;
+    }
+    .circle-number {
+        margin-right: 1.5rem;
+    }
+    .card-header {
+        padding: 1.5rem 2rem;
+    }
+    .card-header {
+        border-bottom: 1px solid #DCDCDC;
+        padding: 12px;
+    }
+    .intro-content-part .section-heading {
+        line-height: 1;
+    }
+    .intro-section {
+        padding: 5rem 0 24rem 0;
+    }
+    .intro-section::after {
+        width: 100%;
+        height: 20rem;
+        top: unset;
+        right: 0;
+        bottom: 0;
+        background: url(../img/about-section-img.png) no-repeat 0 50% / cover;
+    }
+    .stats-card {
+        width: 100%;
+    }
+    .newsline-card .news-list-item-link {
+        flex-direction: column;
+    }
+    .newsline-card .news-list-item-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.5rem;
+    }
+    .newsline-card .news-list-item-content {
+        margin-left: 0;
+    }
+    .newsline-card .news-list-item-title {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .newsline-card .news-list-item-description {
+        font-size: 0.875rem;
+        line-height: 2;
+    }
+    .latest-news-section {
+        padding: 3.5rem 0 1.5rem 0;
+    }
+    .section-heading {
+        font-size: 2rem;
+        line-height: 1.25;
+    }
+    .people-say-card {
+        width: 100%;
+    }
+    .people-say-section {
+        padding: 4rem 0;
+        background: url(../img/people-say-bg-mob.png) no-repeat center / cover;
+    }
+    .faq-question {
+        padding: 18px 24px;
+    }
+    .subscribe-section {
+        padding: 2.2rem 0;
+    }
+    .subscribe-heading {
+        margin-bottom: 1.5rem;
+    }
+    .subscribe-form-input {
+        min-width: unset;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .subscribe-section .action-btn {
+        width: 100%;
+    }
+    /* ABOUT */
+    .about-section.upper {
+        padding: 0 0 3rem 0;
+    }
+    .intro-section.about {
+        padding: 3rem 0 24rem 0;
+    }
+    .about .intro-content-part .section-heading {
+        font-size: 2.5rem;
+        line-height: 1;
+        margin-bottom: 2rem;
+    }
+    .about .intro-content-part .action-btn {
+        max-width: unset;
+    }
+    /* BROKER */
+    .broker-logo-large {
+        display: none;
+    }
+    .broker-logo-large-mob {
+        display: block;
+        margin-right: 1.5rem;
+    }
+    .broker-introduction-text-part {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .broker-introduction-text-part .name-and-rating {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    .broker-introduction-text-part .broker-name {
+        text-align: center;
+        margin: 0.5rem 0 0.3rem 0;
+    }
+    .broker-introduction-text-part {
+        margin-left: 0;
+    }
+    .broker-introduction-text-part .section-text {
+        margin-top: 1.5rem;
+    }
+    .broker-introduction-text-part .rating-holder {
+        margin-left: 0;
+    }
+    .broker-introduction-action {
+        width: 100%;
+    }
+    .broker-introduction-action .action-btn {
+        width: 100%;
+    }
+    .breadcrumbs-item-link {
+        font-size: 0.875rem;
+    }
+    .pros-and-cons-section {
+        flex-direction: column;
+    }
+    .pros-and-cons-section .container-narrow {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .pros-card, .cons-card {
+        width: 100%;
+    }
+    .pros-item, .cons-item {
+        padding: 1.5rem 1.5rem 1.5rem 2.8rem;
+    }
+    .pros-and-cons-section .best-brockers-holder {
+        display: none;
+    }
+    .broker-review-section ul.section-list, 
+    .broker-review-section ol.section-list {
+        margin: 1rem 0 1rem 1rem;
+    }
+    .information-table tr {
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .information-table th {
+        padding: 1.2rem 1rem;
+    }
+    .information-table td {
+        padding: 1.2rem 1rem;
+    }
+    .customer-review-form-heading {
+        padding: 1rem 1.5rem;
+        font-size: 1.125rem;
+    }
+    .customer-review-form-body {
+        padding: 2rem 1.5rem;
+    }
+    .review-textareas-wrapper {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .pros-textarea, .cons-textarea {
+        width: 100%;
+        height: 140px;
+    }
+    .review-action-panel {
+        flex-direction: column;
+    }
+    .review-action-panel .checkbox-wrapper {
+        align-items: flex-start;
+    }
+    .customer-review-form-button {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .customer-reviewer-img-holder {
+        display: none;
+    }
+    .customer-review-content-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .customer-reviewer-img-holder-mob {
+        display: flex;
+        width: 90px;
+        min-width: 90px;
+        height: 90px;
+        background-color: #F5F5F5;
+        border-radius: 4px;
+        margin-right: 1.5rem;
+    }
+    .customer-review-card {
+        padding: 2rem 1.5rem;
+    }
+    .reviewing-date-holder {
+        margin-top: 1.5rem;
+    }
+    .table-item-action .btn {
+        min-width: unset;
+        padding: 12px 6px;
+        width: 49%;
+        text-align: center;
+    }
+
+    /* VACANCY */
+    .vacancy-title-wrapper,
+    .vacancy-content-part {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .vacancy-card .bonus-chip {
+        margin: 0 8px 0 0;
+    }
+    .vacancy-content-part .regular-text {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .vacancy-content-part .action-btn {
+        width: 100%;
+    }
+
+    /* CONTACT */
+    .input-wrap.w-50 {
+        width: 100%;
+    }
+    .contact-form .input-wrap .action-btn {
+        width: 100%;
+    }
+
+    /* EDUCATION */
+    .post-article-heading {
+        font-size: 2.1rem;
+        line-height: 1.1;
+    }
+    .aslo-like-news-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .aslo-like-news-list-item {
+        width: 100%;
+        max-width: 223px;
+    }
+    .comments-wrapper .form-body {
+        padding: 2rem 1rem;
+    }
+    .comments-textarea {
+        padding: 22px 12px;
+    }
+    .education-card {
+        width: 100%;
+    }
+
+    /* MEMBER */
+    .member-profile {
+        flex-direction: column;
+    }
+    .member-profile .team-member-card {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .member-profile-info {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    /* NEWS */
+    .card-pagination {
+        padding: 1.5rem 1rem;
+        flex-wrap: wrap;
+    }
+    .pagination-btn {
+        margin-top: 1rem;
+    }
+
+    /* SITEMAP */
+    .sitemap-groups-wrapper {
+        flex-wrap: wrap;
+    }
+    .sitemap-links-group {
+        width: 100%;
+    }
+
+    /* TEAM */
+    .team-member-card {
+        width: 48%;
+    }
+    
+    /* VACANCY */
+    .sidebar-column.vacancy {
+        width: 100%;
+    }
+
+    /*==== COOKIES NOTICE ===========================*/
+    .cookies-notice {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .cookies-notice h3 {
+        font-size: 1.1rem;
+    }
+    .cookies-notice .section-text {
+        margin-right: 0;
+        font-size: 0.75rem;
+        margin-bottom: 1rem;
+    }
+    .cookies-notice .btns-wrapper {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .cookies-notice .action-btn,
+    .cookies-notice .btn {
+        min-width: unset;
+        min-height: 40px;
+    }
+
+    /*==== FAQ ============================*/
+    .faq-answer p {
+        padding: 1rem 0.5rem 1.5rem 0.5rem;
+    }
+}
+
+@media (max-width: 396px) {
+    .broker-logo-large-mob {
+        width: 80px;
+        height: 80px;
+        min-width: 80px;
+        margin-right: 1.2rem;
+    }
+    .broker-introduction-text-part .broker-name {
+        font-size: 1.6rem;
+    }
+}
